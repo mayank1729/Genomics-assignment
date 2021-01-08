@@ -1,0 +1,64 @@
+15th October 2020
+
+
+- Improvements in Neural Network over lPCA dataset (Reduced randomness of the mini batch gradient descent utilized in the neural network) 
+- Significant improvements in SLE (utilized SVM and XGBoost) after testing and verifying the model over the different datasets available in comparison to the individual models over the same datasets.
+
+
+
+13th October 2020
+
+
+- Modified test dataset for convenience
+
+- Utilized SLE (Super Learner Ensemble) to achieve a prediction at least as good as the best model within the ensemble.
+
+- Improvements in XGBoost, SVM and logistic regression after tuning the models and utilizing column modified and SMOTE datasets.
+
+
+
+12th October 2020
+
+- Tested models over chi square dataset with the aim of reducing the number of features to a value less than but greater than the total number of features and reduced dimesionality respectively.
+- Modified lPCA dataset to be utilized with the models being considered
+
+
+
+11th October 2020
+
+- Improvements in Neural Network predictions
+ over lPCA dataset
+- Utilized SVM and stacking ensemble method
+. Dimensionality reduction techniques did not produce better results, due to which feature maps were opted for.
+- Improvements in logistic regression after using SMOTE dataset.
+
+
+9th October 2020
+
+- Created Logistic PCA dataset
+- Improvements in predictions for XGBoost
+- Utilized logistic regression and random forest models
+
+
+8th October 2020
+
+- Found out the ratio of class imbalance between majority to minority class
+- Utilized Chi-sqaure to produce new dataset (the chi-square dataset)
+- Utilized oversampling to resolve class imbalance
+- Threshold for SMOTE was provided (Values which range between (0,1) were transformed to either 0 or 1 depending on whether the value was < or > 0.5)
+
+
+7th October 2020
+
+- Found the columns containing the missing values (3 columns) and removed them to make the column modified dataset.
+- Created SMOTE dataset to resolve class imbalance.
+- Tunned XGBoost and Neural Network to produce better results.
+- Tested predictions of the models over created datasets.
+
+
+2nd October 2020
+
+- Decided upon intial models to be utilized (XGBoost and Neural Network). These models were selected taking into consideration several factors (like the class imbalance problem)
+- Inspected dataset provided
+- Studied reference papers provided
+- Uploaded datasets which have rows without -1 output (modified_dataset) and rows without -1 as input feature using modified_dataset (row_deletion)
